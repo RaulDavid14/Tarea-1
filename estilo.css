@@ -1,0 +1,94 @@
+
+h1{
+    color: #002B5B;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 3em;
+    border: groove #2B4865;
+}
+
+#experiencia{
+    font-size: 2em;
+    font-style: italic;
+    margin-right: 100px;
+    padding-left: 2em; /* determina el espacio del elemento */
+    padding-right: 4em;
+}
+
+.info{
+    grid-template-columns: repeat(2,1fr); /* separa el elemento en lascolumnas especificadas */
+    display: grid;  
+}
+
+.empleo{
+    width: 400px;
+    height: 76px;
+}
+
+.dato{
+    color: #002B5B;
+    font-style: italic;
+    font-size: large;
+}
+
+.encabezado{
+    text-align: center;
+}
+
+fieldset{
+
+    border-color: #002B5B;
+    border-radius: 25px;    
+}
+legend{
+    text-align: center;
+    padding-inline-start: 10px; /*establece el rellen del elemento */
+    padding-inline-end: 10px;
+    font-size: 30px;
+    border-radius: 25px;
+    border: groove #2B4865;
+    color: #002B5B;
+}
+
+img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: groove #8FE3CF;
+}
+
+.skills{
+  padding: 1em;
+}
+.elemento{
+    color: #002B5B;
+    grid-template-columns: repeat(1,1fr); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lenguaje{
+    color: #002B5B;
+    margin-left: 50px ;
+    font-size: 1.5em; /* cambia el tamanio del texto */
+}
+section{
+    width: 250px;
+    border-radius: 25px;
+}
+
+#referencias{
+    color: #002B5B;
+}
+.referencia{
+    color: #002B5B;
+    width: 400px;
+    height: 100px;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+p{
+    color: #002B5B;
+}
